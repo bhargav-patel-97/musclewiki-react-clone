@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5275f5ab9476768ba5a633a2f83b2bf9",
+    "revision": "7972096fd65c7bc41373cc58524166e3",
     "url": "/musclewiki-react-clone/index.html"
   },
   {
-    "revision": "08a1b41f52b09ded1ced",
-    "url": "/musclewiki-react-clone/static/css/main.1b6b6695.chunk.css"
+    "revision": "97777e49cd604eccaf65",
+    "url": "/musclewiki-react-clone/static/css/main.710abd86.chunk.css"
   },
   {
     "revision": "2c48cc0714625673ceb0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/musclewiki-react-clone/static/js/2.34458bd0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "08a1b41f52b09ded1ced",
-    "url": "/musclewiki-react-clone/static/js/main.7dc5ec63.chunk.js"
+    "revision": "97777e49cd604eccaf65",
+    "url": "/musclewiki-react-clone/static/js/main.23897676.chunk.js"
   },
   {
     "revision": "f56808bd7279210623ce",

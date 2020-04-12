@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/musclewiki-react-clone/static/css/main.1b6b6695.chunk.css",
-    "main.js": "/musclewiki-react-clone/static/js/main.7dc5ec63.chunk.js",
-    "main.js.map": "/musclewiki-react-clone/static/js/main.7dc5ec63.chunk.js.map",
+    "main.css": "/musclewiki-react-clone/static/css/main.710abd86.chunk.css",
+    "main.js": "/musclewiki-react-clone/static/js/main.23897676.chunk.js",
+    "main.js.map": "/musclewiki-react-clone/static/js/main.23897676.chunk.js.map",
     "runtime-main.js": "/musclewiki-react-clone/static/js/runtime-main.c778accc.js",
     "runtime-main.js.map": "/musclewiki-react-clone/static/js/runtime-main.c778accc.js.map",
     "static/js/2.34458bd0.chunk.js": "/musclewiki-react-clone/static/js/2.34458bd0.chunk.js",
     "static/js/2.34458bd0.chunk.js.map": "/musclewiki-react-clone/static/js/2.34458bd0.chunk.js.map",
     "index.html": "/musclewiki-react-clone/index.html",
-    "precache-manifest.7c34a98242c9196d94b57803c96d2959.js": "/musclewiki-react-clone/precache-manifest.7c34a98242c9196d94b57803c96d2959.js",
+    "precache-manifest.88efdfaec2fa75c181c70522bb592029.js": "/musclewiki-react-clone/precache-manifest.88efdfaec2fa75c181c70522bb592029.js",
     "service-worker.js": "/musclewiki-react-clone/service-worker.js",
-    "static/css/main.1b6b6695.chunk.css.map": "/musclewiki-react-clone/static/css/main.1b6b6695.chunk.css.map",
+    "static/css/main.710abd86.chunk.css.map": "/musclewiki-react-clone/static/css/main.710abd86.chunk.css.map",
     "static/js/2.34458bd0.chunk.js.LICENSE.txt": "/musclewiki-react-clone/static/js/2.34458bd0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c778accc.js",
     "static/js/2.34458bd0.chunk.js",
-    "static/css/main.1b6b6695.chunk.css",
-    "static/js/main.7dc5ec63.chunk.js"
+    "static/css/main.710abd86.chunk.css",
+    "static/js/main.23897676.chunk.js"
   ]
 }
