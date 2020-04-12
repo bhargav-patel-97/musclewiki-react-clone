@@ -1,0 +1,112 @@
+.Musclemap {
+    background-color: #F5F8FA;
+    position: relative;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.Musclemap img {
+    cursor: pointer;
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100%;
+}
+
+.trapsA {
+    top: 17.4%;
+    left: 26.7%;
+    width: 3.39%;
+}
+
+.trapsB {
+    top: 17.4%;
+    left: 31.48%;
+    width: 3.39%;
+}
+
+.pecs {
+    top: 22%;
+    left: 24.3%;
+    width: 13%;
+}
+
+.shouldersA {
+    top: 21.1%;
+    left: 21.84%;
+    width: 5.61%;
+}
+
+.shouldersB {
+    top: 21.1%;
+    left: 34.1%;
+    width: 5.61%;
+}
+
+.bicepsA {
+    top: 26.9%;
+    left: 20.89%;
+    width: 4.05%;
+}
+
+.bicepsB {
+    top: 26.9%;
+    left: 36.67%;
+    width: 4.05%;
+}
+
+.forearmA {
+    top: 33.6%;
+    left: 16.75%;
+    width: 6.62%;
+}
+
+.forearmB {
+    top: 33.6%;
+    left: 38.18%;
+    width: 6.61%;
+}
+
+.obliques {
+    top: 28.67%;
+    left: 27.44%;
+    width: 6.42%;
+}
+
+.quadsA {
+    top: 42.2%;
+    left: 23.6%;
+    width: 6.55%;
+}
+
+.quadsB {
+    top: 42.2%;
+    left: 31.4%;
+    width: 6.55%;
+}
+
+.calvesA {
+    top: 64.59%;
+    left: 23.19%;
+    width: 4.67%;
+}
+
+.calvesB {
+    top: 64.49%;
+    left: 33.74%;
+    width: 4.67%;
+}
+
+.Musclemap>img:not(.background) {
+    display: block;
+    position: absolute;
+    opacity: 0;
+}
+
+.Musclemap>img:not(.background):hover {
+    opacity: 1;
+    transition: opacity 0.3s;
+}

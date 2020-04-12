@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Header.css'
-import logo from '../../img/muscle-wiki.png';
+import logo from '../../static/muscle-wiki.png';
 
 const header = () => (
     <div class={styles.row}>
