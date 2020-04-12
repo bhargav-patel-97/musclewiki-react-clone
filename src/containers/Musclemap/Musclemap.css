@@ -100,6 +100,102 @@
     width: 4.67%;
 }
 
+.backtrapsA {
+    top: 15.38%;
+    left: 67.3%;
+    width: 7%;
+}
+
+.backtrapsB {
+    top: 17.82%;
+    left: 66.87%;
+    width: 8.1%;
+}
+
+.backshouldersA {
+    top: 19.29%;
+    left: 61.5%;
+    width: 5.7%;
+}
+
+.backshouldersB {
+    top: 19.29%;
+    left: 74.6%;
+    width: 5.7%;
+}
+
+.tricepsA {
+    top: 24.83%;
+    left: 60.2%;
+    width: 4.58%;
+}
+
+.tricepsB {
+    top: 24.83%;
+    left: 77.1%;
+    width: 4.58%;
+}
+
+.backlatsA {
+    top: 26.66%;
+    left: 64.7%;
+    width: 6%;
+}
+
+.backlatsB {
+    top: 26.66%;
+    left: 71.2%;
+    width: 6%;
+}
+
+.backlower {
+    top: 32.86%;
+    left: 67.62%;
+    width: 6.59%;
+}
+
+.backforearmsA {
+    top: 33.5%;
+    left: 56.1%;
+    width: 6.36%;
+}
+
+.backforearmsB {
+    top: 33.5%;
+    left: 79.34%;
+    width: 6.36%;
+}
+
+.backglutes {
+    top: 41%;
+    left: 64.89%;
+    width: 12.08%;
+}
+
+.backhamstringsA {
+    top: 47.49%;
+    left: 63.75%;
+    width: 6.67%;
+}
+
+.backhamstringsB {
+    top: 47.49%;
+    left: 71.47%;
+    width: 6.7%;
+}
+
+.backcalvesA {
+    top: 64.43%;
+    left: 61.94%;
+    width: 4.8%;
+}
+
+.backcalvesB {
+    top: 64.43%;
+    left: 75.1%;
+    width: 4.8%;
+}
+
 .Musclemap>img:not(.background) {
     display: block;
     position: absolute;
@@ -108,5 +204,5 @@
 
 .Musclemap>img:not(.background):hover {
     opacity: 1;
-    transition: opacity 0.3s;
+    transition: opacity 0.5s;
 }

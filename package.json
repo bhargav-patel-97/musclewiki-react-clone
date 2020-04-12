@@ -2,6 +2,7 @@
   "name": "musclewiki",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bhargav-patel-97.github.io/musclewiki-react-clone",
   "dependencies": {
     "@babel/core": "7.9.0",
     "@svgr/webpack": "4.3.3",
@@ -82,10 +83,10 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "devDependencies": {
-      "gh-pages-deploy": "^0.5.1"
-    }
+    ]
+  },
+  "devDependencies": {
+    "gh-pages-deploy": "^0.5.1"
   },
   "jest": {
     "roots": [
