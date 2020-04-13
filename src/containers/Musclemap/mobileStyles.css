@@ -1,0 +1,380 @@
+@media screen and (max-width: 640px) {
+.mobilebg {
+    width: 100%;
+}
+
+.mobileMusclemap {
+    position: relative;
+}
+
+.mobileMusclemap>img:not(.mobilebg) {
+    display: block;
+    position: absolute;
+    opacity: 0;
+}
+
+.mobiletrapsA {
+    top: 9.2%;
+    left: 38.5%;
+    width: 9.2%;
+}
+
+.mobiletrapsB {
+    top: 9.2%;
+    left: 50.9%;
+    width: 9.2%;
+}
+
+.mobilepecs {
+    top: 11.79%;
+    left: 32.58%;
+    width: 33.68%;
+}
+
+.mobileshouldersA {
+    top: 11.27%;
+    left: 26.4%;
+    width: 14.5%;
+}
+
+.mobileshouldersB {
+    top: 11.27%;
+    left: 58%;
+    width: 14.5%;
+}
+
+.mobilebicepsA {
+    top: 14.55%;
+    left: 23.6%;
+    width: 10.5%;
+}
+
+.mobilebicepsB {
+    top: 14.55%;
+    left: 64.8%;
+    width: 10.5%;
+}
+
+.mobileforearmA {
+    top: 18.2%;
+    left: 12.6%;
+    width: 17.6%;
+}
+
+.mobileforearmB {
+    top: 18.2%;
+    left: 68.5%;
+    width: 17.4%;
+}
+
+.mobileobliques {
+    top: 15.5%;
+    left: 40.49%;
+    width: 16.8%;
+}
+
+.mobilequadsA {
+    top: 23.1%;
+    left: 30.8%;
+    width: 17%;
+}
+
+.mobilequadsB {
+    top: 23.1%;
+    left: 51.1%;
+    width: 17%;
+}
+
+.mobilecalvesA {
+    top: 35.9%;
+    left: 29.73%;
+    width: 11.9%;
+}
+
+.mobilecalvesB {
+    top: 35.9%;
+    left: 57.3%;
+    width: 11.9%;
+}
+
+.mobilebacktrapsA {
+    top: 56.58%;
+    left: 40.46%;
+    width: 21%;
+}
+
+.mobilebacktrapsB {
+    top: 58.1%;
+    left: 40.46%;
+    width: 21.6%;
+}
+
+.mobilebackshouldersA {
+    top: 58.9%;
+    left: 26.37%;
+    width: 14.8%;
+}
+
+.mobilebackshouldersB {
+    top: 58.9%;
+    left: 61.19%;
+    width: 14.8%;
+}
+
+.mobiletricepsA {
+    top: 62.1%;
+    left: 22.8%;
+    width: 12%;
+}
+
+.mobiletricepsB {
+    top: 62.1%;
+    left: 67.6%;
+    width: 12%;
+}
+
+.mobilebacklatsA {
+    top: 63.16%;
+    left: 34.8%;
+    width: 15.7%;
+}
+
+.mobilebacklatsB {
+    top: 63.16%;
+    left: 52%;
+    width: 15.7%;
+}
+
+.mobilebacklower {
+    top: 66.63%;
+    left: 42.4%;
+    width: 17.6%;
+}
+
+.mobilebackforearmsA {
+    top: 67.04%;
+    left: 12.1%;
+    width: 16.7%;
+}
+
+.mobilebackforearmsB {
+    top: 67.04%;
+    left: 73.6%;
+    width: 16.7%;
+}
+
+.mobilebackglutes {
+    top: 71.22%;
+    left: 35.3%;
+    width: 32%;
+}
+
+.mobilebackhamstringsA {
+    top: 74.9%;
+    left: 32.15%;
+    width: 17.8%;
+}
+
+.mobilebackhamstringsB {
+    top: 74.9%;
+    left: 52.66%;
+    width: 17.9%;
+}
+
+.mobilebackcalvesA {
+    top: 84.53%;
+    left: 27.5%;
+    width: 12.6%;
+}
+
+.mobilebackcalvesB {
+    top: 84.53%;
+    left: 62.28%;
+    width: 12.6%;
+}
+
+.mobilefemaleTrapsA {
+    top: 10.84%;
+    left: 39.8%;
+    width: 7.22%;
+}
+
+.mobilefemaleTrapsB {
+    top: 10.84%;
+    left: 52.2%;
+    width: 7.22%;
+}
+
+.mobilefemaleShouldersA {
+    top: 12.07%;
+    left: 29.82%;
+    width: 10.7%;
+}
+
+.mobilefemaleShouldersB {
+    top: 12.1%;
+    left: 58.89%;
+    width: 10.7%;
+}
+
+.mobilefemalePecs {
+    top: 12.7%;
+    left: 36.3%;
+    width: 26.8%;
+}
+
+.mobilefemaleBicepsA {
+    top: 15%;
+    left: 28.2%;
+    width: 8.5%;
+}
+
+.mobilefemaleBicepsB {
+    top: 15%;
+    left: 62.7%;
+    width: 8.5%;
+}
+
+.mobilefemaleForearmA {
+    top: 18.72%;
+    left: 20.3%;
+    width: 12.8%;
+}
+
+.mobilefemaleForearmB {
+    top: 18.66%;
+    left: 66.35%;
+    width: 12.8%;
+}
+
+.mobilefemaleAbdominals {
+    top: 16.7%;
+    left: 42.49%;
+    width: 14.3%;
+}
+
+.mobilefemaleQuadsA {
+    top: 24.55%;
+    left: 34.1%;
+    width: 13.4%;
+}
+
+.mobilefemaleQuadsB {
+    top: 24.55%;
+    left: 51.75%;
+    width: 13.4%;
+}
+
+.mobilefemaleCalvesA {
+    top: 38.8%;
+    left: 32.5%;
+    width: 9.7%;
+}
+
+.mobilefemaleCalvesB {
+    top: 38.8%;
+    left: 57.1%;
+    width: 9.7%;
+}
+
+.mobilefemaleBacktrapsA {
+    top: 58.76%;
+    left: 41.7%;
+    width: 19%;
+}
+
+.mobilefemaleBacktrapsB {
+    top: 59.8%;
+    left: 40.2%;
+    width: 22%;
+}
+
+.mobilefemaleBackShouldersA {
+    top: 60.26%;
+    left: 29.4%;
+    width: 12.4%;
+}
+
+.mobilefemaleBackShouldersB {
+    top: 60.26%;
+    left: 60.6%;
+    width: 12.4%;
+}
+
+.mobilefemaleTricepsA {
+    top: 63.32%;
+    left: 28.5%;
+    width: 8.4%;
+}
+
+.mobilefemaleTricepsB {
+    top: 63.32%;
+    left: 65.58%;
+    width: 8.6%;
+}
+
+.mobilefemaleBacklatsA {
+    top: 64.7%;
+    left: 38.53%;
+    width: 12.3%;
+}
+
+.mobilefemaleBacklatsB {
+    top: 64.7%;
+    left: 51.6%;
+    width: 12.3%;
+}
+
+.mobilefemaleBacklower {
+    top: 68.15%;
+    left: 43.34%;
+    width: 15.9%;
+}
+
+.mobilefemaleBackForearmsA {
+    top: 68.46%;
+    left: 22.74%;
+    width: 10.1%;
+}
+
+.mobilefemaleBackForearmsB {
+    top: 68.46%;
+    left: 69.5%;
+    width: 10.3%;
+}
+
+.mobilefemaleBackGlutes {
+    top: 72.84%;
+    left: 36.43%;
+    width: 29.58%;
+}
+
+.mobilefemaleBackHamstringsA {
+    top: 76.04%;
+    left: 34.5%;
+    width: 14.5%;
+}
+
+.mobilefemaleBackHamstringsB {
+    top: 76.06%;
+    left: 53.6%;
+    width: 14.5%;
+}
+
+.mobilefemaleBackCalvesA {
+    top: 86%;
+    left: 34.46%;
+    width: 10.7%;
+}
+
+.mobilefemaleBackCalvesB {
+    top: 86%;
+    left: 57.37%;
+    width: 10.7%;
+}
+
+.mobileMusclemap > img:not(.mobilebg):hover {
+    opacity: 1;
+}
+
+}

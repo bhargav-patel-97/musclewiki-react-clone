@@ -6,7 +6,7 @@
 
 .row {
     font-family: 'Racing Sans One', cursive;
-   width: auto;
+    width: auto;
     margin: 0 auto;
     padding: 1em;
     box-sizing: border-box;
@@ -52,4 +52,29 @@
     border-radius: 10px;
     height: 25px;
     width: 20%;
+    border: 2px solid #20409A;
+}
+
+@media (max-width: 979px) {
+    .row {
+        width: 100%;
+    }
+    .row ul {
+        display: none;
+    }
+    .row input {
+        float: right;
+        border: 2px solid #20409A;
+        width: 27%;
+    }
+
+    .genderBtn {
+        padding-top: 2em !important;
+    }
+
+    .genderBtn button {
+        margin: 0.5em !important;
+        width: 23% !important;
+    }
+
 }
