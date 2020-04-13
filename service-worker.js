@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/musclewiki-react-clone/precache-manifest.88efdfaec2fa75c181c70522bb592029.js"
+  "/musclewiki-react-clone/precache-manifest.93d74099ab16c460ae44d5cd681fa317.js"
 );
 
 self.addEventListener('message', (event) => {
