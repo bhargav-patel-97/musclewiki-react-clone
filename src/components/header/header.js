@@ -11,6 +11,8 @@ const header = () => (
                 <li>Tools</li>
             </ul>
         <input type={Text} />
+        <button className="mobileNav">
+        </button>
     </div>
 );
 

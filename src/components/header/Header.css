@@ -22,7 +22,7 @@
 }
 
 .title {
-    height: 25px;
+    max-height: 29px;
     width: auto;
     display: block;
     float: left;
@@ -39,7 +39,7 @@
     display: inline-block;
     font-size: 1.3em;
     margin-right: 1em;
-    color: #111;
+    color: #424244;
 }
 
 .row li:hover {
@@ -54,6 +54,9 @@
     width: 20%;
     border: 2px solid #20409A;
 }
+.mobileNav {
+    display: none;
+}
 
 @media (max-width: 979px) {
     .row {
@@ -63,13 +66,24 @@
         display: none;
     }
     .row input {
+        display: none;
+    }
+
+    .mobileNav {
+        display: block;
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAABIUlEQVRoge3YMU6EQBiG4Y/RBuIlXE+gth7DC2xCgBA7Y2myiR5hCwLEmNB6C2v1BHALJxSTGRsxO1iIxMzg5ns6fijeCc2fAYiIiIgWJxgP4jg+F0KsfMRMpbXu6rp+2Z1ZB0nTdG2MeXCbNY8xZl1V1ePwLEYvL5wXzWe1WgcRQmwBtE5z5mkBbH1HEBHR/rBWlDzPj5RStwCOPfVMYozp+r6/a5rmfZgd7n6glNoAuHYd9ltBECCKogMAN8NMjD4wzqv+iPVHpJSbMAwVgBNPPVO1Usp73xFERLQ/rF0ry7JTrfUTgEXfawHohBCXRVG8DQNrRdFaX2H5hwCA1Wfrl/G91rPbnvnGrd+uTJMkOcM/2LXKsnz1HUFERET0gw/u+1Nmd0ceMgAAAABJRU5ErkJggg==');
+        background-size: cover;
+        background-color: transparent;
         float: right;
-        border: 2px solid #20409A;
-        width: 27%;
+        border-radius: 4px;
+        padding: 1.1em 1.2em;
+        border: 1px solid transparent;
+        border-color: #ddd !important;
     }
 
     .genderBtn {
-        padding-top: 2em !important;
+        padding-top: 3em !important;
+        padding-left: 30%;
     }
 
     .genderBtn button {
@@ -77,4 +91,8 @@
         width: 23% !important;
     }
 
+}
+
+@media (max-width: 979px) {
+    
 }
