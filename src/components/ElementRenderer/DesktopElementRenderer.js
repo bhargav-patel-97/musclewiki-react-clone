@@ -7,12 +7,11 @@ const DesktopElementRenderer = (props) => {
     let muscleRaw = props.element;
     let muscle = muscleRaw.split('-');
     let title= muscle.join(" ").toUpperCase();    
-    console.log(title);
 
     return (
         <div className={props.className}>
             <h2>{title}</h2>
-             <img src={props.exercise} alt=""/>
+             <img className="exerciseImg" src={props.exercise} alt=""/>
         </div>
     )
 }

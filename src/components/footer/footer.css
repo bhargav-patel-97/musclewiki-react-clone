@@ -1,0 +1,19 @@
+.footer {
+    margin-top: 5em;
+    margin: 0 auto;
+    font-family: 'Racing Sans One';
+    padding:  1em;
+    background-color: #424244;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+.footer a {
+    color: rgb(87, 143, 180);
+    text-decoration: none;
+}

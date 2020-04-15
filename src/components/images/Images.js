@@ -148,6 +148,7 @@ const mobileFigures = { 'male': [
 ]}
 
 const Images = (props) => {
+
   let gender = props.selection;
   const [element, setElement] = useState(''); 
   const database = props.db;

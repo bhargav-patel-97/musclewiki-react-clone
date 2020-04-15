@@ -4,6 +4,12 @@
     width: 3%;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .female-Traps-right {
     top: 21.8%;
     left: 30.57%;

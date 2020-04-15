@@ -87,20 +87,29 @@ class Musclemap extends React.Component {
         }
     }
 
+    divClickHandler = () => {
+
+        //  WILL USE LATER ON AFTER FIXING MOBILE COMPATIBILITY ISSUES
+        // var muscleExerciseDiv = document.querySelector('.exerciseImg');
+        // muscleExerciseDiv.scrollIntoView({ behavior: 'smooth', block: 'end'}); 
+
+
+    }
+
     componentWillUnmount() {
         window.removeEventListener('resize', this.onWindowResize);
-      }
+    }
 
     render() {
         return(
                 <MediaQuery minDeviceWidth={1224} device={{ deviceWidth: 1600 }}>    
-                    <div className="genderBtn">
-                        <button className={this.state.Male} onClick={this.maleClickHandler}>Male</button>
-                        <button className={this.state.Female} onClick={this.femaleClickHandler}>Female</button>
-                    </div>
-                    <div className={this.state.viewer}>
-                        <Images selection={this.state.selection} db={this.state.db} />
-                    </div>
+                <div className="genderBtn">
+                    <button className={this.state.Male} onClick={this.maleClickHandler}>Male</button>
+                    <button className={this.state.Female} onClick={this.femaleClickHandler}>Female</button>
+                </div>
+                <div className={this.state.viewer} onClick={this.divClickHandler}>
+                    <Images selection={this.state.selection} db={this.state.db} />
+                </div>
                 </MediaQuery>
         )
     }

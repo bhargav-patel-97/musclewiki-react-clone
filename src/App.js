@@ -1,16 +1,14 @@
 import React from 'react';
-import styles from './App.css';
-import Header from './components/header/header';
 import Musclemap from './containers/Musclemap/Musclemap';
-
+import Layout from './components/layout/layout';
+import './App.css';
 
 class App extends React.Component {
   render() {
     return (
-      <div className={styles.App}>
-        <Header />
-        <Musclemap />
-      </div>
+        <Layout className="App">
+          <Musclemap />
+        </Layout>
     );
   }  
 }

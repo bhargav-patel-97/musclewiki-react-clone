@@ -1,3 +1,28 @@
 .desktopMuscle {
+    width: 100%;
+    background-color: #F5F8FA;
     position: absolute;
+}
+
+h2 {
+    font-family: 'Racing Sans One', cursive;
+    padding: 1em;
+    padding-left: 36%;
+    font-weight: 100;
+    transition: all 0.3s ease;
+    background-color: rgb(32, 65, 154);
+    color: #fff;
+    width: 100%;
+}
+
+h2:hover {
+    color: #fff;
+    background-color: #424244;
+}
+
+.desktopMuscle img {
+    width: 50%;
+    height: auto;
+    cursor: default;
+    margin: 0 0 0 25%;
 }
