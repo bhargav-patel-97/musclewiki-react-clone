@@ -10,7 +10,7 @@ const header = () => (
                 <li>Bodyweight</li>
                 <li>Tools</li>
             </ul>
-        <input type={Text} />
+        <input />
         <button className="mobileNav">
         </button>
     </div>

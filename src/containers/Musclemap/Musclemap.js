@@ -2,20 +2,35 @@ import React from 'react';
 import './musclemap_Male.css';
 import './musclemap_Female.css';
 import './mobileStyles.css';
-
 import Images from '../../components/images/Images';
 import MediaQuery from 'react-responsive';
+import Firebase from 'firebase';
+import config from '../../components/Firebase/config';
 
 
 class Musclemap extends React.Component {
     
-    state = {
-        viewer: '',
-        selection: 'male',
-        Male: ['Male'],
-        Female: ['Female'],
-        content: '',
-        isMobile: false
+    constructor(props){
+        super(props);
+   
+        try {
+            Firebase.initializeApp(config);
+        } catch (err) {
+            // we skip the “already exists” message which is
+            // not an actual error when we’re hot-reloading
+            if (!/already exists/.test(err.message)) {
+            console.error(`Firebase initialization error raised, ${err.stack}`)
+            }}
+
+        this.state = {
+            viewer: '',
+            selection: 'male',
+            Male: ['Male'],
+            Female: ['Female'],
+            content: '',
+            isMobile: false,
+            db: {}
+        }
     }
 
     handleWindowResize = () => {
@@ -23,30 +38,41 @@ class Musclemap extends React.Component {
     }
             
     femaleClickHandler = () => {
-    const maleBtn =  document.querySelector('.Male');
-    const femaleBtn =  document.querySelector('.Female');
-    maleBtn.classList.add('Inactive');
-    femaleBtn.classList.remove('Inactive');
-    
-    this.setState
-    ({
-        selection:'female',
-    });
+        const maleBtn =  document.querySelector('.Male');
+        const femaleBtn =  document.querySelector('.Female');
+        maleBtn.classList.add('Inactive');
+        femaleBtn.classList.remove('Inactive');
+        
+        this.setState
+        ({
+            selection:'female',
+        });
     }
     
     maleClickHandler = () => {
-    const maleBtn =  document.querySelector('.Male');
-    const femaleBtn =  document.querySelector('.Female');
-    maleBtn.classList.remove('Inactive');
-    femaleBtn.classList.add("Inactive");
+        const maleBtn =  document.querySelector('.Male');
+        const femaleBtn =  document.querySelector('.Female');
+        maleBtn.classList.remove('Inactive');
+        femaleBtn.classList.add("Inactive");
 
-    this.setState
-    ({
-        selection:'male',
-    });
+        this.setState
+        ({
+            selection:'male',
+        });
     }
-        
-    componentDidMount() {
+    
+    getUserData = () => {
+        let db = Firebase.database().ref('/gender'); 
+        db.on('value', snapshot => {
+            const db = snapshot.val();
+            this.setState({ db: db });
+        });
+      }
+    
+    async componentDidMount() {
+
+        this.getUserData();
+
         if(this.state.selection === 'male') {
             this.setState({Female:['Female Inactive']});
         }
@@ -73,7 +99,7 @@ class Musclemap extends React.Component {
                         <button className={this.state.Female} onClick={this.femaleClickHandler}>Female</button>
                     </div>
                     <div className={this.state.viewer}>
-                        <Images selection={this.state.selection} />
+                        <Images selection={this.state.selection} db={this.state.db} />
                     </div>
                 </MediaQuery>
         )
