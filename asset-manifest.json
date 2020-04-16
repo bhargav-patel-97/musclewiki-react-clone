@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/musclewiki-react-clone/static/css/main.e9331f47.chunk.css",
-    "main.js": "/musclewiki-react-clone/static/js/main.0267370e.chunk.js",
-    "main.js.map": "/musclewiki-react-clone/static/js/main.0267370e.chunk.js.map",
+    "main.css": "/musclewiki-react-clone/static/css/main.1cf32735.chunk.css",
+    "main.js": "/musclewiki-react-clone/static/js/main.924b4578.chunk.js",
+    "main.js.map": "/musclewiki-react-clone/static/js/main.924b4578.chunk.js.map",
     "runtime-main.js": "/musclewiki-react-clone/static/js/runtime-main.c778accc.js",
     "runtime-main.js.map": "/musclewiki-react-clone/static/js/runtime-main.c778accc.js.map",
-    "static/js/2.29068e66.chunk.js": "/musclewiki-react-clone/static/js/2.29068e66.chunk.js",
-    "static/js/2.29068e66.chunk.js.map": "/musclewiki-react-clone/static/js/2.29068e66.chunk.js.map",
+    "static/js/2.2cfd1146.chunk.js": "/musclewiki-react-clone/static/js/2.2cfd1146.chunk.js",
+    "static/js/2.2cfd1146.chunk.js.map": "/musclewiki-react-clone/static/js/2.2cfd1146.chunk.js.map",
     "index.html": "/musclewiki-react-clone/index.html",
-    "precache-manifest.2ff0c3c8000ac941f0604efd3a201645.js": "/musclewiki-react-clone/precache-manifest.2ff0c3c8000ac941f0604efd3a201645.js",
+    "precache-manifest.ab4dc2d92b2622c95981774528ca7abd.js": "/musclewiki-react-clone/precache-manifest.ab4dc2d92b2622c95981774528ca7abd.js",
     "service-worker.js": "/musclewiki-react-clone/service-worker.js",
-    "static/css/main.e9331f47.chunk.css.map": "/musclewiki-react-clone/static/css/main.e9331f47.chunk.css.map",
-    "static/js/2.29068e66.chunk.js.LICENSE.txt": "/musclewiki-react-clone/static/js/2.29068e66.chunk.js.LICENSE.txt",
+    "static/css/main.1cf32735.chunk.css.map": "/musclewiki-react-clone/static/css/main.1cf32735.chunk.css.map",
+    "static/js/2.2cfd1146.chunk.js.LICENSE.txt": "/musclewiki-react-clone/static/js/2.2cfd1146.chunk.js.LICENSE.txt",
     "static/media/muscle-wiki.png": "/musclewiki-react-clone/static/media/muscle-wiki.1e168c5b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c778accc.js",
-    "static/js/2.29068e66.chunk.js",
-    "static/css/main.e9331f47.chunk.css",
-    "static/js/main.0267370e.chunk.js"
+    "static/js/2.2cfd1146.chunk.js",
+    "static/css/main.1cf32735.chunk.css",
+    "static/js/main.924b4578.chunk.js"
   ]
 }
