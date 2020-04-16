@@ -71,6 +71,8 @@ class Musclemap extends React.Component {
     
     async componentDidMount() {
 
+        let toHide = document.querySelector('.hide');
+        toHide.classList.add('hide');
         this.getUserData();
 
         if(this.state.selection === 'male') {
@@ -90,8 +92,8 @@ class Musclemap extends React.Component {
     divClickHandler = () => {
 
         //  WILL USE LATER ON AFTER FIXING MOBILE COMPATIBILITY ISSUES
-        // var muscleExerciseDiv = document.querySelector('.exerciseImg');
-        // muscleExerciseDiv.scrollIntoView({ behavior: 'smooth', block: 'end'}); 
+        var muscleExerciseDiv = document.querySelector('.footer');
+        muscleExerciseDiv.scrollIntoView({ behavior: 'smooth', block: 'start'}); 
 
 
     }

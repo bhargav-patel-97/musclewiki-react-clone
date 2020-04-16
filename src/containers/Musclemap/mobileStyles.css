@@ -1,5 +1,5 @@
 @media screen and (max-width: 1224px) {
-.mobilebg {
+.mobile-bg {
     width: 100%;
 }
 
@@ -7,367 +7,367 @@
     position: relative;
 }
 
-.mobileMusclemap>img:not(.mobilebg) {
+.mobileMusclemap>img:not(.mobile-bg) {
     display: block;
     position: absolute;
     opacity: 0;
 }
 
-.mobiletrapsA {
+.mobile-male-traps-left {
     top: 9.15%;
     left: 38.5%;
     width: 9.2%;
 }
 
-.mobiletrapsB {
+.mobile-male-traps-right {
     top: 9.15%;
     left: 51.1%;
     width: 9.2%;
 }
 
-.mobilepecs {
+.mobile-male-pecs {
     top: 11.78%;
     left: 32.672%;
     width: 33.68%;
 }
 
-.mobileshouldersA {
+.mobile-male-shoulders-left {
     top: 11.27%;
     left: 26.4%;
     width: 14.5%;
 }
 
-.mobileshouldersB {
+.mobile-male-shoulders-right {
     top: 11.2599%;
     left: 58.02%;
     width: 14.5%;
 }
 
-.mobilebicepsA {
+.mobile-male-biceps-left {
     top: 14.55%;
     left: 23.6%;
     width: 10.5%;
 }
 
-.mobilebicepsB {
+.mobile-male-biceps-right {
     top: 14.55%;
     left: 64.8%;
     width: 10.5%;
 }
 
-.mobileforearmA {
+.mobile-male-forearm-left {
     top: 18.2%;
     left: 12.6%;
     width: 17.6%;
 }
 
-.mobileforearmB {
+.mobile-male-forearm-right {
     top: 18.2%;
     left: 68.5%;
     width: 17.4%;
 }
 
-.mobileobliques {
+.mobile-male-obliques {
     top: 15.45%;
     left: 40.7%;
     width: 16.8%;
 }
 
-.mobilequadsA {
+.mobile-male-quads-left {
     top: 23.1%;
     left: 30.8%;
     width: 17%;
 }
 
-.mobilequadsB {
+.mobile-male-quads-right {
     top: 23.1%;
     left: 51.1%;
     width: 17%;
 }
 
-.mobilecalvesA {
+.mobile-male-calves-left {
     top: 35.9%;
     left: 29.73%;
     width: 11.9%;
 }
 
-.mobilecalvesB {
+.mobile-male-calves-right {
     top: 35.9%;
     left: 57.3%;
     width: 11.9%;
 }
 
-.mobilebacktrapsA {
+.mobile-male-back-traps {
     top: 56.5%;
     left: 40.46%;
     width: 21%;
 }
 
-.mobilebacktrapsB {
+.mobile-male-back-traps-mid {
     top: 58%;
     left: 40.46%;
     width: 21.6%;
 }
 
-.mobilebackshouldersA {
+.mobile-male-back-shoulders-left {
     top: 58.8%;
     left: 26.37%;
     width: 14.8%;
 }
 
-.mobilebackshouldersB {
+.mobile-male-back-shoulders-right {
     top: 58.8%;
     left: 61.19%;
     width: 14.8%;
 }
 
-.mobiletricepsA {
+.mobile-male-triceps-left {
     top: 61.94%;
     left: 22.8%;
     width: 12%;
 }
 
-.mobiletricepsB {
+.mobile-male-triceps-right {
     top: 61.94%;
     left: 67.6%;
     width: 12%;
 }
 
-.mobilebacklatsA {
+.mobile-male-back-lats-left {
     top: 63%;
     left: 34.8%;
     width: 15.7%;
 }
 
-.mobilebacklatsB {
+.mobile-male-back-lats-right {
     top: 63%;
     left: 52%;
     width: 15.7%;
 }
 
-.mobilebacklower {
+.mobile-male-back-lower {
     top: 66.5%;
     left: 42.4%;
     width: 17.6%;
 }
 
-.mobilebackforearmsA {
+.mobile-male-back-forearms-left {
     top: 66.95%;
     left: 11.9%;
     width: 16.7%;
 }
 
-.mobilebackforearmsB {
+.mobile-male-back-forearms-right {
     top: 66.95%;
     left: 73.8%;
     width: 16.7%;
 }
 
-.mobilebackglutes {
+.mobile-male-back-glutes {
     top: 71.07%;
     left: 35.3%;
     width: 32%;
 }
 
-.mobilebackhamstringsA {
+.mobile-male-back-hamstrings-left {
     top: 74.7%;
     left: 32.15%;
     width: 17.8%;
 }
 
-.mobilebackhamstringsB {
+.mobile-male-back-hamstrings-right {
     top: 74.85%;
     left: 52.66%;
     width: 17.9%;
 }
 
-.mobilebackcalvesA {
+.mobile-male-back-calves-left {
     top: 84.46%;
     left: 27.4%;
     width: 12.6%;
 }
 
-.mobilebackcalvesB {
+.mobile-male-back-calves-right {
     top: 84.495%;
     left: 62.36%;
     width: 12.6%;
 }
 
-.mobilefemaleTrapsA {
+.mobile-female-Traps-left {
     top: 10.84%;
     left: 39.8%;
     width: 7.22%;
 }
 
-.mobilefemaleTrapsB {
+.mobile-female-Traps-right {
     top: 10.84%;
     left: 52.2%;
     width: 7.22%;
 }
 
-.mobilefemaleShouldersA {
+.mobile-female-Shoulders-left {
     top: 12.07%;
     left: 29.82%;
     width: 10.7%;
 }
 
-.mobilefemaleShouldersB {
+.mobile-female-Shoulders-right {
     top: 12.1%;
     left: 58.89%;
     width: 10.7%;
 }
 
-.mobilefemalePecs {
+.mobile-female-Pecs {
     top: 12.7%;
     left: 36.3%;
     width: 26.8%;
 }
 
-.mobilefemaleBicepsA {
+.mobile-female-Biceps-left {
     top: 15%;
     left: 28.2%;
     width: 8.5%;
 }
 
-.mobilefemaleBicepsB {
+.mobile-female-Biceps-right {
     top: 15%;
     left: 62.7%;
     width: 8.5%;
 }
 
-.mobilefemaleForearmA {
+.mobile-female-Forearm-left {
     top: 18.72%;
     left: 20.3%;
     width: 12.8%;
 }
 
-.mobilefemaleForearmB {
+.mobile-female-Forearm-right {
     top: 18.66%;
     left: 66.35%;
     width: 12.8%;
 }
 
-.mobilefemaleAbdominals {
+.mobile-female-Abdominals {
     top: 16.7%;
     left: 42.49%;
     width: 14.3%;
 }
 
-.mobilefemaleQuadsA {
+.mobile-female-Quads-left {
     top: 24.55%;
     left: 34.1%;
     width: 13.4%;
 }
 
-.mobilefemaleQuadsB {
+.mobile-female-Quads-right {
     top: 24.55%;
     left: 51.75%;
     width: 13.4%;
 }
 
-.mobilefemaleCalvesA {
+.mobile-female-Calves-left {
     top: 38.8%;
     left: 32.5%;
     width: 9.7%;
 }
 
-.mobilefemaleCalvesB {
+.mobile-female-Calves-right {
     top: 38.8%;
     left: 57.1%;
     width: 9.7%;
 }
 
-.mobilefemaleBacktrapsA {
+.mobile-female-Back-traps {
     top: 58.76%;
     left: 41.7%;
     width: 19%;
 }
 
-.mobilefemaleBacktrapsB {
+.mobile-female-Back-traps-lower {
     top: 59.8%;
     left: 40.2%;
     width: 22%;
 }
 
-.mobilefemaleBackShouldersA {
+.mobile-female-Back-Shoulders-left {
     top: 60.26%;
     left: 29.4%;
     width: 12.4%;
 }
 
-.mobilefemaleBackShouldersB {
+.mobile-female-Back-Shoulders-right {
     top: 60.26%;
     left: 60.6%;
     width: 12.4%;
 }
 
-.mobilefemaleTricepsA {
+.mobile-female-Triceps-left {
     top: 63.32%;
     left: 28.5%;
     width: 8.4%;
 }
 
-.mobilefemaleTricepsB {
+.mobile-female-Triceps-right {
     top: 63.32%;
     left: 65.58%;
     width: 8.6%;
 }
 
-.mobilefemaleBacklatsA {
+.mobile-female-Back-lats-left {
     top: 64.7%;
     left: 38.53%;
     width: 12.3%;
 }
 
-.mobilefemaleBacklatsB {
+.mobile-female-Back-lats-right {
     top: 64.7%;
     left: 51.6%;
     width: 12.3%;
 }
 
-.mobilefemaleBacklower {
+.mobile-female-Back-lower {
     top: 68.15%;
     left: 43.34%;
     width: 15.9%;
 }
 
-.mobilefemaleBackForearmsA {
+.mobile-female-Back-Forearms-left {
     top: 68.46%;
     left: 22.74%;
     width: 10.1%;
 }
 
-.mobilefemaleBackForearmsB {
+.mobile-female-Back-Forearms-right {
     top: 68.46%;
     left: 69.5%;
     width: 10.3%;
 }
 
-.mobilefemaleBackGlutes {
+.mobile-female-Back-Glutes {
     top: 72.68%;
     left: 36.43%;
     width: 29.58%;
 }
 
-.mobilefemaleBackHamstringsA {
+.mobile-female-Back-Hamstrings-left {
     top: 75.9%;
     left: 34.5%;
     width: 14.5%;
 }
 
-.mobilefemaleBackHamstringsB {
+.mobile-female-Back-Hamstrings-right {
     top: 75.9%;
     left: 53.6%;
     width: 14.5%;
 }
 
-.mobilefemaleBackCalvesA {
+.mobile-female-Back-Calves-left {
     top: 85.8%;
     left: 34.46%;
     width: 10.7%;
 }
 
-.mobilefemaleBackCalvesB {
+.mobile-female-Back-Calves-right {
     top: 85.8%;
     left: 57.37%;
     width: 10.7%;
