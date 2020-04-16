@@ -170,6 +170,19 @@ const Images = (props) => {
       let toHide = document.querySelector('.hide');
       toHide.classList.remove('hide');
 
+      window.onscroll = function() {scrollFunction()};
+      const mybutton = document.querySelector(".top");
+
+      function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+
+        
+      }
+}
+
     } catch (e) {
       console.log(e);
     }
